@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.App {
+  text-align: center;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.ant-form-item-required::before {
+  content: "*";
+  color: red;
+  margin-right: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.ant-tabs-nav-wrap {
+  display: flex;
+}
+
+.ant-tabs-nav-list {
+  flex: 1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+.button-like-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-like-checkbox-group .ant-checkbox-wrapper {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.button-like-checkbox-group .ant-checkbox-wrapper:hover {
+  border-color: #1890ff;
+}
+
+.button-like-checkbox-group .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.button-like-checkbox-group .ant-checkbox-checked .ant-checkbox-wrapper {
+  border-color: #1890ff;
+  color: #fff;
+}
+
+.button-like-checkbox-group .ant-checkbox-checked .ant-checkbox-wrapper:hover {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+}
+
+.ant-tabs-tab-btn {
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  /* line-height: 19px; */
+  /* identical to box height */
+
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+
+  /* Primary Persian Blue/100% */
+
+  color: #030037;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.ant-checkbox-wrapper .span {
+  font-family: "Inter";
+  font-weight: 400;
+}
+.ant-layout {
+  background-color: #f8f9fd;
+}
+* {
+  color: #030037;
+}
+
+@media (max-width: 708px) {
+  .navbar {
+    width: 115%;
+  }
+  .ant-list-items div:nth-last-child(-n + 5) {
+    display: none;
+  }
+  .ant-list-items div:nth-child(2) {
+    display: none;
+  }
+  .navbar div:nth-last-child(-n + 5) {
+    display: none;
+  }
+  .navbar div:nth-child(-n + 4) {
+    width: 10%;
+  }
+  .navbar div:nth-child(2) {
+    display: none;
+  }
+  .ant-layout-sider {
+    display: none;
+  }
+  .ant-list-items div:nth-child(3) {
+    display: flex;
+    margin-right: 50px;
+  }
+  .buttonforhide {
+    display: block !important;
+  }
+  .ant-card {
+    width: 60% !important;
+  }
+  .cardwithbutton {
+    margin-bottom: 2% !important;
+    display: flex;
+    flex-direction: column;
+  }
+  .texted {
+    text-align: left;
+    width: 100% !important;
+    white-space: pre-wrap;
+    height: 80px !important;
+  }
+  .btnwithcheckbox {
+    width: 150px !important;
+  }
+  .ant-checkbox-group {
+    width: 200px;
+  }
+  .newhome-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .imageab {
+    width: 100vw !important;
+    height: 50vh;
+    overflow: hidden;
+  }
+  .imagere {
+    text-align: center;
+    width: 100vw !important;
+  }
+  .imagere div {
+    color: #030037;
+  }
+  .login-container {
+    display: flex;
+
+    width: 100% !important;
+    margin-top: 30%;
+    height: 40vh !important;
+    text-align: center !important;
+  }
+}
